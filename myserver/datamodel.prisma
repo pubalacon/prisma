@@ -1,0 +1,9 @@
+type User {
+  id: ID! @id
+  name: String! @unique
+}
+
+type Note {
+  id: ID! @id
+  text: String!
+}
